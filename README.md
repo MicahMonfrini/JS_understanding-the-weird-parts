@@ -80,7 +80,7 @@ var address = '100 Main St.'
 
 In this example, the variable `address` is the **name**, and the string `'100 Main St.'`
 is the value. In Javascript one of the main ways name/value pairs are used is with
-**objects**. An object is a collection of name/value pairs.
+**objects**.
 
 Example:
 
@@ -94,5 +94,5 @@ var address = {
   }
 }
 ```
-Don't make objects more complicated than they are! They're just collections of
-name value pairs. It's just that simple.
+Don't make objects more complicated than they are! Objects are simply collections
+of name/value pairs.
