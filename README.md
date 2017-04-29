@@ -1,6 +1,6 @@
-# JavaScript: Understand the Weird Parts
+# Javascript: Understand the Weird Parts
 
-## JavaScript Vocabulary/Terms:
+## Javascript Vocabulary/Terms:
 
 *Don't be afraid of big words. It's just vocabulary!*
 
@@ -26,9 +26,10 @@
   - The name in question may be defined more than once, but can only have one value
   in any given **execution context**. That value may itself be additional name/value pairs.
 
-+ **Word**
-  - *Definition*
-  - More Detail
++ **Object**
+  - *A collection of name/value pairs.*
+  - The simplest possible definition when talking about Javascript. Objects may be
+  handled differently in other programming languages.
 
 + **Word**
   - *Definition*
@@ -73,9 +74,23 @@ That value may itself be additional name/value pairs.
 
 Example:
 
-  ```javascript
-  var address = '100 Main St.'
-  ```
+```javascript
+var address = '100 Main St.'
+```
 
 In this example, the variable `address` is the **name**, and the string `'100 Main St.'`
-is the value.
+is the value. In Javascript one of the main ways name/value pairs are used is with
+**objects**. An object is a collection of name/value pairs.
+
+Example:
+
+```javascript
+var address = {
+  Street: 'Main',
+  Number: 100
+  Apartment = {
+    Floor: 3,
+    Number 301
+  }
+}
+```
