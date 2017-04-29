@@ -1,4 +1,4 @@
-# JS_understanding-the-weird-parts
+# JavaScript: Understand the Weird Parts
 
 ## JavaScript Vocabulary/Terms:
 
@@ -19,8 +19,6 @@
 + **Word**
   - Definition
   - More Detail
-
----
 
 ## Conceptual Asides
 
