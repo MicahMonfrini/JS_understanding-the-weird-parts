@@ -21,9 +21,10 @@
   by execution contexts. It can contain things beyond what has been written in
   your code.
 
-+ **Word**
-  - *Definition*
-  - More Detail
++ **Name/Value Pair**
+  - *A name which maps to a unique value.*
+  - The name in question may be defined more than once, but can only have one value
+  in any given **execution context**. That value may itself be additional name/value pairs.
 
 + **Word**
   - *Definition*
@@ -43,7 +44,7 @@
 
 ## Conceptual Asides
 
-### Syntax Parsers, Execution Contexts & Lexical Environments
+### Syntax Parsers, Lexical Environments & Execution Contexts
 
 **Syntax Parsers:**
 
@@ -65,3 +66,14 @@ Since there are many different lexical environments, an execution context helps
 manage which lexical environment is currently running.
 
 ### Name/Value Pairs & Objects
+
+A name/value pair is a name that maps to a value. The name in question may be defined
+more than once, but can only have one value in any given **execution context**.
+That value may itself be additional name/value pairs.
+
+Example:
+
+  `var address = '100 Main St.'`
+
+In this example, the variable address is the **name**, and the string *'100 Main St.'*
+is the value.
