@@ -73,7 +73,9 @@ That value may itself be additional name/value pairs.
 
 Example:
 
-  `var address = '100 Main St.'`
+  ```javascript
+  var address = '100 Main St.'
+  ```
 
-In this example, the variable address is the **name**, and the string *'100 Main St.'*
+In this example, the variable `address` is the **name**, and the string `*'100 Main St.'*`
 is the value.
