@@ -43,7 +43,7 @@
 
 ## Conceptual Asides
 
-#### Syntax Parsers, Execution Contexts & Lexical Environments
+### Syntax Parsers, Execution Contexts & Lexical Environments
 
 **Syntax Parsers:**
 
@@ -51,7 +51,7 @@ Syntax parsers are programs written to translate your code for the computer. Thi
 takes place in the intermediate step between the time your code is executed and the
 actual end result.
 
-**Lexical Environment**
+**Lexical Environment:**
 
 Where you write certain pieces of your code matters in languages consider lexical
 environments important. In these languages, the lexical environment is crucial in
@@ -59,9 +59,9 @@ order for the compiler to properly translate your code.
 
 This isn't the case for all programming languages.
 
-**Execution Context**
+**Execution Context:**
 
 Since there are many different lexical environments, an execution context helps
 manage which lexical environment is currently running.
 
-#### Name/Value Pairs & Objects
+### Name/Value Pairs & Objects
