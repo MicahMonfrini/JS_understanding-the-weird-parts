@@ -77,5 +77,5 @@ Example:
   var address = '100 Main St.'
   ```
 
-In this example, the variable `address` is the **name**, and the string `*'100 Main St.'*`
+In this example, the variable `address` is the **name**, and the string `'100 Main St.'`
 is the value.
