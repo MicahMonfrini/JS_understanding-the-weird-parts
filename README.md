@@ -87,10 +87,12 @@ Example:
 ```javascript
 var address = {
   Street: 'Main',
-  Number: 100
+  Num: 100
   Apartment = {
     Floor: 3,
-    Number 301
+    Num: 301
   }
 }
 ```
+Don't make objects more complicated than they are! They're just collections of
+name value pairs. It's just that simple.
