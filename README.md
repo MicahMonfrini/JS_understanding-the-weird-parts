@@ -66,6 +66,24 @@ This isn't the case for all programming languages.
 Since there are many different lexical environments, an execution context helps
 manage which lexical environment is currently running.
 
+*The Global Execution Context:*
+
+The base execution context is called a "global" execution context. This simply means
+that it's not inside a function. Two key things are created by JS in this global
+context:
+
+  + Global object
+  + Global variable "this"
+
+When the global execution context is created in a browser window, the global
+object is the browser window (an object called "window") and "this" simply refers
+to that object. Therefore, we can say that the global object "window" === "this"
+in the global execution context.
+
+If a function or a variable is defined in this global context, they are assigned
+to the global object. In the case of a browser, they are assigned to the global
+object "window".
+
 ### Name/Value Pairs & Objects
 
 A name/value pair is a name that maps to a value. The name in question may be defined
