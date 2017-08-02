@@ -56,8 +56,7 @@ actual end result.
 
 **Lexical Environment:**
 
-Where you write certain pieces of your code matters in languages consider lexical
-environments important. In these languages, the lexical environment is crucial in
+Where you write certain pieces of your code matters in certain programming languages. In these languages, the lexical environment is crucial in
 order for the compiler to properly translate your code.
 
 This isn't the case for all programming languages.
@@ -93,7 +92,7 @@ Each execution context is set up in 2 phases:
     + Outer Environment
     + Memory space for variables and functions (Hoisting)
   + Execution Phase
-    + 
+    +
 
 ### Name/Value Pairs & Objects
 
