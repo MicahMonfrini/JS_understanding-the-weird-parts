@@ -31,9 +31,10 @@
   - The simplest possible definition when talking about Javascript. Objects may be
   handled differently in other programming languages.
 
-+ **Word**
-  - *Definition*
-  - More Detail
++ **Hoisting**
+  - *Memory space set aside in the execution context for variables and functions*
+  - Variables are stored and set as "undefined"; functions are stored in memory in their entirety.
+  - Hoisting occurs prior to the execution phase in a given execution context.
 
 + **Word**
   - *Definition*
@@ -83,6 +84,16 @@ in the global execution context.
 If a function or a variable is defined in this global context, they are assigned
 to the global object. In the case of a browser, they are assigned to the global
 object "window".
+
+Each execution context is set up in 2 phases:
+
+  + Creation Phase
+    + Global Object
+    + "this"
+    + Outer Environment
+    + Memory space for variables and functions (Hoisting)
+  + Execution Phase
+    + 
 
 ### Name/Value Pairs & Objects
 
