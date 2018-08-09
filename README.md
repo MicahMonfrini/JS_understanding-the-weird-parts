@@ -17,7 +17,7 @@
 
 + **Execution Context**
   - *A wrapper to help manage the code that's running.*
-  - There a lots of lexical environments. Which one should be running is managed
+  - There are lots of lexical environments. Which one should be running is managed
   by execution contexts. It can contain things beyond what has been written in
   your code.
 
