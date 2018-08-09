@@ -1,4 +1,4 @@
-# Javascript: Understand the Weird Parts
+# Javascript: Understanding the Weird Parts
 
 ## Javascript Vocabulary/Terms:
 
